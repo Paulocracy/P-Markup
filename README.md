@@ -52,7 +52,7 @@ p_markup_GUI.py. The resulting HTML&JavaScript files will be created in the give
 ## 4. Usage example
 See [./Input_Example/markup.txt](./Input_Example/markup.txt) and
 [./Output_Example/markup.html](./Output_Example/markup.html) as well as
-the associated [./Output_Example/index.html](Index output file).
+the associated [./Output_Example/index.html index file](./Output_Example/index.html).
 
 ## 5. Licensing
 P-Markup is free and open-source. You can find its full license under [./LICENSE](./LICENSE). 
