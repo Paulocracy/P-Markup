@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html' charset='utf-8'>
+<style>
+img { max-width: 100%; height: auto; width: auto; }
+</style>
+<script>var A=0;
+var B=0;
+function _0(event){
+A=parseFloat(event.value);
+}
+function _1(event){
+B=parseFloat(event.value);
+}
+function _2(){
+
+    return A+B
+}
+function __2(){
+let a = document.getElementById('_2');
+a.innerHTML =_2()
+}
+</script><body>
+
+
+
+
+<a href='Path'> Text</a><br>
+
+
+Enter the value of A:<br>
+
+<input type='number' step='any' oninput='_0(this)' value='0'>
+<br>
+<br>
+
+
+Enter the value of B<br>
+
+<input type='number' step='any' oninput='_1(this)' value='0'>
+<br>
+<br>
+
+
+The result A+B is:<br>
+
+<button onclick=__2()>Calculate</button><div id='_2'></div></body></html>

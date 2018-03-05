@@ -1,0 +1,17 @@
+[REM Comment]
+[REM The file name is the title]
+[SET A 0]
+[SET B 0]
+
+[LINK Path Text]\
+
+Enter the value of A:\
+[INPUTNUMBER A]\\
+
+Enter the value of B\
+[INPUTNUMBER B]\\
+
+The result A+B is:\
+[SCRIPTBUTTON Calculate
+    return A+B
+]
