@@ -142,10 +142,10 @@ def index_file(files):
            "<head>\n"\
            "<meta http-equiv='Content-Type' content='text/html' charset='utf-8'>\n"\
            "</head>"\
-           "<html>"
+           "<body>\n"
     for file in files:
         html += "<a href='"+file+"'>"+file+"</a><br>\n"
-    html += "</html>"
+    html += "</body>\n</html>"
     return html
 
 
