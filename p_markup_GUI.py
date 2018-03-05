@@ -24,7 +24,7 @@ from submodules.directory_selection import DirectorySelection
 class PMarkupGUI(tkinter.Tk):
     def __init__(self):
         super().__init__()
-        self.title("P-Markup")
+        self.title("P-Markup BETA")
 
         self.input_folder = DirectorySelection(self, "Select the input folder:", "./Input_Example")
         self.output_folder = DirectorySelection(self, "Select the output folder:", "./Output_Example")
